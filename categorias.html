@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniservice ARROYO</title>
+    <!--Agregar el cdn de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!--Agregar archivo externo de css-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="" href="conexion2022.php">
+
+</head>
+<body>
+    <!--Crear un menú-->
+  <div id="header" > 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h1>AUTOSERVICIO <br> ARROYO  </h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" aria-controls="navbarNav" 
+            aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"><h5>Sobre <br>nosotros</h5></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><h5>Categorias    </h5></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#"><h6>Almacén 🛍</h6></a>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#bebidas"><h6>Bebidas 🍾</h6></a>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#limpieza"><h6>Limpieza 🧹</h6></a>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#verduleria"><h6>Verdulería 🍅</h6></a>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#polleria"><h6>Pollería 🍗</h6></a>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#panaderia"></h6>Panadería 🍞</h6></a>
+                      <hr class="dropdown-divider">
+                    </li>
+
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#clientes" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><h5>Clientes 👨‍👩‍👧‍👦   </h5></a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown"  >
+                      <li><a class="dropdown-item" href="formularioCliente.html"><h6>Crear Cuenta Nueva</h6></a>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#clientes"><h6>Ingresar al Carrito compras 🛒</h6></a>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#clientes"><h6>Ver Carrito de compras 🛒</h6></a>
+                        <hr class="dropdown-divider">
+                      </li>   
+                      <li><a class="dropdown-item" href="#clientes"><h6>Salir de la Cuenta</h6></a>
+                        <hr class="dropdown-divider">
+                      </li>                    
+                    </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#envios"><h5>Envío Express  🚐💨   </h5></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#carrito" tabindex="-1" aria-disabled="false"><h5>Carrito de compras 🛒   </h5></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#micompra"><h5>Mi compra 🛍</h5></a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </div>
+    <!--Crear secciones para ccategorias-->
+    <main class="container-fluid mt-5 ">
+        <section class="contenedor flex_sup" id="">
+            
+        </section>
+        <section class="row mt-5 " > 
+          <div class="flex_sup" id="Almacen">
+            <h2>ALMACÉN</h2>
+          </div>
+
+            <article class="col-2 fondo">
+                <h3>Leche en sachet "La Serenísima"</h3>  
+                <img src="img/sachets.png" alt=""> 
+                <p>Variedades</p> 
+                <p>$250 por unidad</p> 
+            </article>
+            <article class="col-2 fondo">
+                <h3>Queso cremoso "Cremón"</h3>  
+                <img src="img/quesocremon.jpg" alt="">
+                <p>Queso de la mejor calidad</p>
+                <p>$999 por Kg</p>    
+            </article>
+            <article class="col-2 fondo">
+              <h3>Aceite de oliva "Cocinero"</h3>  
+              <img src="img/D_NQ_NP_743881-MLA43642910356_102020-O.webp" alt=""> 
+              <p>frasco de 1/2 litro</p> 
+              <p>$850 por unidad</p> 
+          </article>
+          <article class="col-2 fondo">
+              <h3>Harina común "Pureza"</h3>  
+              <img src="img/D_NQ_NP_683029-MLA46482495622_062021-O.webp" alt="">
+              <p>Harina común 0000 </p>
+              <p>$150 por unidad</p>    
+          </article>
+          <article class="col-2 fondo">
+            <h3>Queso cremoso "La Paulina</h3>  
+            <img src="img/quesopaulina.jpg" alt="">
+            <p>especial para pizza</p>
+            <p>$850 por Kg</p>    
+          </article>
+        </section>
+
+        <section class="row mt-5 contenedor" id="bebidas" data-stellar-background-ratio="0.5"> <!--el id hace el llamado a la opción con #bebidas -->
+          <div class="flex_sup" >
+            <h2>BEBIDAS</h2>
+          </div>
+          <article class="col-2 fondo">
+              <h3>Gaseosa "Coca Cola"</h3>  
+              <img src="img/coca.jpg" alt=""> 
+              <p>botella retornable de 2 1/2 litros</p> 
+              <p>$350 por unidad</p> 
+          </article>
+          <article class="col-2 fondo">
+              <h3>Gaseosa "Torasso"</h3>  
+              <img src="img/torasso.jpg" alt="">
+              <p>botella de 3 litros distintos sabores</p>
+              <p>$240 por unidad</p>    
+          </article>
+          <article class="col-2 fondo">
+            <h3>Gaseosa "Coca Cola</h3>  
+            <img src="img/coca1.jpg" alt=""> 
+            <p>botella descartable de 3 litros</p> 
+            <p>$350 por unidad</p> 
+          </article>
+          <article class="col-2 fondo">
+              <h3>Fernet "Branca" en botella</h3>  
+              <img src="img/fernetbranca.png" alt="">
+              <p>por 750 ml.</p>
+              <p>$1300 por unidad</p>    
+          </article>
+          <article class="col-2 fondo">
+            <h3>Cerveza clásica "Quilmes"</h3>  
+            <img src="img/cervezaquilmes.png" alt="">
+            <p>botella de 1 litro. </p>
+            <p>$215 por unidad</p>    
+          </article>
+        </section>
+
+        <section class="row mt-5" id="limpieza" data-stellar-background-ratio="0.5"> <!--el id hace el llamado a la opción con #bebidas -->
+          <div class="flex_sup" >
+            <h2>LIMPIEZA</h2>
+          </div>
+          <article class="col-2 fondo">
+              <h3>Lavandina "Ayudín"</h3>  
+              <img src="img/lavandina.jpg" alt=""> 
+              <p>botella de 1 litro</p> 
+              <p>$350 por unidad</p> 
+          </article>
+          <article class="col-2 fondo">
+              <h3>Detergente "Magistral"</h3>  
+              <img src="img/D_NQ_NP_852550-MLA43705452105_102020-O.webp" alt="">
+              <p>envase de 750 ml</p>
+              <p>$450 por unidad</p>    
+          </article>
+          <article class="col-2 fondo">
+            <h3>Jabón líquido "El Zorro"</h3>  
+            <img src="img/jabonzorro.jpg" alt=""> 
+            <p>envase de </p> 
+            <p>$350 por unidad</p> 
+          </article>
+          <article class="col-2 fondo">
+              <h3>Jabón líquido "Ariel"</h3>  
+              <img src="img/jabonariel.jpg" alt="">
+              <p>envase de  </p>
+              <p>$450 por unidad</p>    
+          </article>
+          <article class="col-2 fondo">
+            <h3>Papel Higiénico "Elite"</h3>  
+            <img src="img/D_NQ_NP_770864-MLU47592493691_092021-O.webp" alt="">
+            <p>empaque por 6 unidades </p>
+            <p>$250 el paquete</p>    
+          </article>
+        </section>
+        <section class="row mt-5" id="verduleria" data-stellar-background-ratio="0.5"> <!--el id hace el llamado a la opción con #bebidas -->
+          <div class="flex_sup" >
+            <h2>VERDULERÍA</h2>
+          </div>
+          <h2></h2>
+          <article class="col-2 fondo">
+              <h3>Tomates redondos</h3>  
+              <img src="img/D_NQ_NP_773593-MLA47717465910_092021-O.webp" alt=""> 
+              <p>2 kg al precio de 1 1/2Kg</p> 
+              <p>$200 por Kg</p> 
+          </article>
+          <article class="col-2 fondo">
+              <h3>Papa negra </h3>  
+              <img src="img/papas.jpg" alt="">
+              <p> de la mejor calidad </p>
+              <p>$100 el Kg</p>    
+          </article>
+          <article class="col-2 fondo">
+            <h3>Milanesa con Fritas</h3>  
+            <img src="img/milaFrita.jpeg" alt=""> 
+            <p>Milanesa de pollo con papas fritas</p> 
+            <p>350 pesos</p> 
+          </article>
+          <article class="col-2 fondo">
+              <h3>Milanesa a la Napolitana</h3>  
+              <img src="img/napolitana.jpeg" alt="">
+              <p>Milanesa con Tomate y Queso </p>
+              <p>450 pesos</p>    
+          </article>
+          <article class="col-2 fondo">
+            <h3>Milanesa a la Napolitana</h3>  
+            <img src="img/napolitana.jpeg" alt="">
+            <p>Milanesa con Tomate y Queso </p>
+            <p>450 pesos</p>    
+          </article>
+        </section>
+
+        <section class="row mt-5" id="polleria" data-stellar-background-ratio="0.5"> <!--el id hace el llamado a la opción con #pollería -->
+          <div class="flex_sup" >
+            <h2>POLLERÍA</h2>
+          </div>
+          <h2></h2>
+          <article class="col-2 fondo">
+              <h3>Supremas de pollo "Grangys"</h3>  
+              <img src="img/supremas.jpg" alt=""> 
+              <p>Milanesa de pollo</p> 
+              <p>$850 por Kg</p> 
+          </article>
+          <article class="col-2 fondo">
+              <h3>Filet de pollo</h3>  
+              <img src="img/filetpollo.png" alt="">
+              <p>Enteros o en bifes </p>
+              <p>$750 por Kg</p>    
+          </article>
+          <article class="col-2 fondo">
+            <h3>Huevos de color "Granja Iris"</h3>  
+            <img src="img/D_NQ_NP_815942-MLA47585150624_092021-O.webp" alt=""> 
+            <p>venta por docena y bandeja</p> 
+            <p>$250 por docena</p> 
+          </article>
+          <article class="col-2 fondo">
+              <h3>Milanesa a la Napolitana</h3>  
+              <img src="img/napolitana.jpeg" alt="">
+              <p>Milanesa con Tomate y Queso </p>
+              <p>450 pesos</p>    
+          </article>
+          <article class="col-2 fondo">
+            <h3>Milanesa a la Napolitana</h3>  
+            <img src="img/napolitana.jpeg" alt="">
+            <p>Milanesa con Tomate y Queso </p>
+            <p>450 pesos</p>    
+          </article>
+        </section>
+        <section class="row mt-5" id="panaderia" data-stellar-background-ratio="0.5"> <!--el id hace el llamado a la opción con #panadería -->
+          <div class="flex_sup" >
+            <h2>PANADERÍA</h2>
+          </div>
+          <h2></h2>
+          <article class="col-2 fondo">
+              <h3>Facturas "Facturity"</h3>  
+              <img src="img/facturas.jpg" alt=""> 
+              <p>Como siempre, del día</p> 
+              <p>$350 por docena</p> 
+          </article>
+          <article class="col-2 fondo">
+              <h3>Pan pebete "Albertus"</h3>  
+              <img src="img/pebete.jpg" alt="">
+              <p>paquete de 6 unidades</p>
+              <p>$450 el paquete</p>    
+          </article>
+          <article class="col-2 fondo">
+            <h3>Pan de viena "La Panerita"</h3>  
+            <img src="img/Pan-De-Viena-Comodin-p-Pancho-x-6-Un.webp" alt=""> 
+            <p>Pan para panchos por 6 unidades</p> 
+            <p>$350 el paquete</p> 
+          </article>
+          <article class="col-2 fondo">
+              <h3>Pan "Pan Catalán"</h3>  
+              <img src="img/pan3.jpg" alt="">
+              <p>Pan sanguchero por 4 unidades</p>
+              <p>$450 el paquete</p>    
+          </article>
+          <article class="col-2 fondo">
+            <h3>Milanesa a la Napolitana</h3>  
+            <img src="img/napolitana.jpeg" alt="">
+            <p>Milanesa con Tomate y Queso </p>
+            <p>450 pesos</p>    
+          </article>
+        </section>
+
+      </center></main>
+
+    <!--Agregar un footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+<footer class="page-footer font-small bg-dark  "><!---my-5 pt-5 text-muted text-center text-smallmy-5 pt-5 text-muted text-center text-small-->
+  <p class="mb-1 texto1">  Copyright  &copy;  2022  <br> Tucumán, Argentina</p>
+  <br>
+  </center><p class="list-inline-item"><a href="terminosycondiciones.html"><center>Términos y Condiciones</center></a></p>
+  <br>
+  <hr>
+</footer>
+</html>

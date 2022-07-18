@@ -1,0 +1,156 @@
+/*Agregar color de fondo,tamaño de texto,Fuente de texto en el body*/
+body{
+    background-color: bisque;
+    background-image: url('../img/Arroyo5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.img1{
+    width: 250px;
+}
+
+section{
+    background-color: rgba(128, 128, 128, 0.705);
+    height: 600px;
+    margin: 5px;
+    padding: 20px;
+
+    color:rgb(49, 43, 43);
+}
+/*
+.contenedor{
+    display: inline;
+    width: 100%;
+    flex-wrap: wrap;
+}
+*/
+
+.flex_sup{
+    justify-content: center;
+    background-color: rgb(128, 128, 128, 0.705);
+    height: 50px;
+
+}
+
+article{
+   /*background-color: rgba(76, 0, 130, 0.363);
+   background:linear-gradient(white,blue,green);*/
+    max-height: 100%;
+    /*min-height: 80%;*/
+    margin: 0px;
+    padding: 20px;    
+    text-align: center;
+    color:black;
+    align-items: center;
+}
+
+.article1{
+    /*background-color: rgba(76, 0, 130, 0.363);
+    background:linear-gradient(white,blue,green);*/
+    max-width: 90%;
+    max-height: 100%;
+    min-height: 90%;
+    margin: 20px;
+    padding: 20px;
+
+    text-align: justify;
+ }
+ .article2{
+    /*background-color: rgba(76, 0, 130, 0.363);
+    background:linear-gradient(white,blue,green);*/
+    height: 30px;
+    max-height: 100%;
+    min-height: 80%;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+ }
+.texto{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.texto1{
+        text-align: center;
+}
+
+h2{
+    text-align:center;
+    font-style: italic;
+    font-weight: bold;
+}
+.fondo{
+    background-color: rgba(254, 255, 254, 568);
+    margin: 20px;
+    padding: 0px;
+}
+.fondo1{
+    background-color: rgba(254, 255, 254, 568);
+    width: 75%;
+    max-width: 97%;
+    max-height: 100%;
+    justify-content: flex-start;
+    
+}
+
+div.card img{
+    border-radius: 20px;
+    width: 287px;
+    height: 155px;
+}
+/*
+.submenu li > ul {
+    display: none;
+    position: absolute;
+    top:50px;
+    left: 50px;
+    background-color: #9fc8d9; 
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+    border-radius: 0px 0px 5px 5px;
+    list-style: none;
+    z-index: 1000;
+}
+*/
+.list-group-item:first-child {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.lh-sm {
+    line-height: 1.25!important;
+}
+.justify-content-between {
+    justify-content: space-between!important;
+}
+.d-flex {
+    display: flex!important;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+/*
+.container-fluid {
+    display: inline-block;
+    width: 75%;
+    padding: 3% 3%;
+}
+*/
+footer{
+    padding: 20px;
+    color: white;
+}    
